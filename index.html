@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MS in Marketing Coffee Chats | Haslam College of Business</title>
+  <!-- Calendly Widget CSS -->
+  <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+  <style>
+    :root {
+      --ut-orange: #FF8200;
+      --smokey-gray: #58595B;
+      --headline-gray: #333333;
+      --light-bg: #F6F6F6;
+      --white: #FFFFFF;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--headline-gray);
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
+      background-color: var(--light-bg);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 20px;
+      border-bottom: 4px solid var(--ut-orange);
+    }
+
+    .header h1 {
+      color: var(--smokey-gray);
+      font-size: 2.2rem;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .header p {
+      font-size: 1.1rem;
+      color: var(--headline-gray);
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--white);
+      border: 1px solid #E0E0E0;
+      border-top: 6px solid var(--smokey-gray);
+      border-radius: 6px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+      transition: transform 0.2s ease, border-color 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-top-color: var(--ut-orange);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--ut-orange);
+      font-size: 1.4rem;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 0.95rem;
+      color: var(--smokey-gray);
+      margin-bottom: 10px;
+    }
+
+    .card strong {
+      color: var(--headline-gray);
+    }
+
+    .btn {
+      display: block;
+      text-align: center;
+      background-color: var(--ut-orange);
+      color: var(--white);
+      padding: 12px 18px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 20px;
+      cursor: pointer;
+      border: none;
+      font-size: 1rem;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn:hover {
+      background-color: #E07200;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>MS in Marketing Student Coffee Chats</h1>
+    <p>Sign up to connect with a current MS in Marketing student over a cup of coffee (our treat!) to learn more about the program[cite: 1]. All questions and all interest levels welcome[cite: 1]!</p>
+  </div>
+
+  <div class="grid">
+    <!-- Kenzie Rushing -->
+    <div class="card">
+      <div>
+        <h3>Kenzie Rushing</h3>
+        <p><strong>Background:</strong> BA in Marketing – Mississippi State University</p>[cite: 1]
+        <p><strong>Role:</strong> Graduate Assistant for the Marketing & Sales Innovation Alliance supporting corporate recruiting & Haslam-hosted marketing conferences.</p>[cite: 1]
+      </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://tiny.utk.edu/coffewithKenzie'});return false;" class="btn">Connect with Kenzie</a>
+    </div>
+
+    <!-- Morgan Beuscher -->
+    <div class="card">
+      <div>
+        <h3>Morgan Beuscher</h3>
+        <p><strong>Background:</strong> BA in Marketing – University of Tennessee</p>[cite: 1]
+        <p><strong>Role:</strong> Graduate Research Assistant in the Marketing Research Lab & Marketing/Comms Intern for ABT, Inc.</p>[cite: 1]
+      </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://tiny.utk.edu/coffeewithMorgan'});return false;" class="btn">Connect with Morgan</a>
+    </div>
+
+    <!-- Sydney Weikhart -->
+    <div class="card">
+      <div>
+        <h3>Sydney Weikhart</h3>
+        <p><strong>Background:</strong> BA in Marketing – University of Tennessee (graduated 1 year early)</p>[cite: 1]
+        <p><strong>Role:</strong> Graduate Teaching Assistant working with the Boldsquare Residency on-campus internship class.</p>[cite: 1]
+      </div>
+      <a href="" onclick="Calendly.initPopupWidget({url: 'https://tiny.utk.edu/coffeewithSydney'});return false;" class="btn">Connect with Sydney</a>
+    </div>
+  </div>
+
+  <!-- Calendly Widget JS -->
+  <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+</body>
+</html>
